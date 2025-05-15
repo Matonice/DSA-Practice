@@ -22,3 +22,6 @@ def hasDuplicate(nums: List[int]) -> bool:
         if nums[i] == nums[i-1]:
             return True
     return False
+
+print(hasDuplicate([1,2,3,3]))
+print(hasDuplicate([1,2,3,4]))
