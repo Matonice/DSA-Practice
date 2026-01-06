@@ -19,6 +19,7 @@ Constraints:
 
 from typing import List
 
+
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
         right_max = -1
